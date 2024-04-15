@@ -1,0 +1,11 @@
+.projet{
+    width: 100%;
+    text-align: center ;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    background-color: #f0f0f0;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}

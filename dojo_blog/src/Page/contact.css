@@ -1,0 +1,30 @@
+.file{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    height: auto;
+    padding: 30px;
+    margin: auto;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+@media (max-width:480px) {
+    .file{
+    display: flex;
+    width: 60%;
+    text-align: center;
+    justify-content: center;
+    height: auto;
+    padding: 20px;
+    margin: auto;
+    flex-wrap: wrap;
+    gap: 1rem;
+    }
+    .files{
+        display: flex;
+        flex-direction: column;
+        margin: 100px 0 0 0;
+    }
+}

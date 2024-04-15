@@ -1,0 +1,17 @@
+
+
+.animationText{
+    opacity: 0;
+    animation: bounceIn 1s 1s;
+    animation-fill-mode: forwards;
+    min-width: 10px;
+
+}
+
+
+
+@for $i from 1 through 35 {
+    .animationText._#{$i}{
+        animation-delay: #{$i / 9}s;
+    }
+}

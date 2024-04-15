@@ -1,0 +1,180 @@
+.navebare{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    background-color: #022c43;
+    width: 100%;
+    font-family: "Gumela";
+    height: 90px;
+    gap: 1rem;
+    position: relative;
+    
+    span {
+        cursor: pointer;
+        transition: all 0.3s ease-out;
+
+        &:hover{
+            color: yellow;
+        }
+       
+    }
+    span:nth-of-type(1){
+        width: 100px;
+        height: 30px;
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 30px;
+        position: absolute;
+        left: 14rem;
+    }
+    span:nth-of-type(2){
+    
+        width: 100px;
+        height: 30px;
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 30px;
+        position: absolute;
+        left: 20rem;
+    }
+    span:nth-of-type(3){
+        width: 100px;
+        height: 30px;
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 30px;
+        position: absolute;
+        left: 26rem;
+    }
+   
+    span:nth-of-type(4){
+        border: 1px solid white;
+        width: 100px;
+        height: 30px;
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 30px;
+        position: absolute;
+        left: 57.5rem;
+
+        &:hover{
+            color: #ffff00;
+            border: 1px solid #ffff00;
+            transition: all 0.3s ease-in-out;
+        }
+    }
+
+    .logo{
+        position: absolute;
+        left: 8rem;
+        width: 40px;
+        height: 40px;
+        background: #ffff00;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        color: #21325e;
+        border: 1px solid wheat;
+        
+        h2{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+        }
+    }
+   
+}
+
+
+
+@media (max-width:480px) {
+    .navebare{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 15px;
+        background-color: #022c43;
+        width: 100%;
+        font-family: "Gumela";
+        height: 90px;
+        
+        cursor: pointer;
+        position: relative;
+
+        span:nth-of-type(4){
+            border: 1px solid white;
+            width: 90px;
+            height: 25px;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 30px;
+            position: absolute;
+            left: 20rem;
+        }
+        span:nth-of-type(1){
+            font-size: 13px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 30px;
+            position: absolute;
+            left: 2rem;
+        }
+        span:nth-of-type(2){
+            font-size: 13px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 30px;
+            position: absolute;
+            left: 7rem;
+        }
+        span:nth-of-type(3){
+            font-size: 13px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 30px;
+            position: absolute;
+            left: 11rem;
+        }
+       
+        .logo{
+            position: absolute;
+            left: 1rem;
+            width: 30px;
+            height: 30px;
+            background: #ffff00;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            color: #21325e;
+            border: 1px solid wheat;
+            
+            h2{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-weight: bold;
+                font-size: 20px;
+            }
+        }
+    }
+    
+}

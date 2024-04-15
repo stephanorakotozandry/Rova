@@ -1,0 +1,53 @@
+.experiance{
+    display: flex;
+    text-align: center;
+    padding: 30px;
+    gap: 3rem;
+    width: 100%;
+    height: 90vh;
+    flex-direction: column;
+    background-color: #f0f0f0;
+    opacity: 0;
+    animation: fadeInUp 2s 2s;
+    animation-fill-mode: forwards;
+
+    h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    opacity: 0;
+    animation: fadeInUp 2s 2s;
+    animation-fill-mode: forwards;
+    }
+    span{
+        font-size: 14px;
+        opacity: 0;
+        animation: fadeInUp 2s 2s;
+        animation-fill-mode: forwards;
+    }
+}
+
+
+@media ( max-width:480px) {
+    .experiance{
+        display: flex;
+        text-align: center;
+        padding: 50px;
+        gap: 3rem;
+        width: 100%;
+        height: 110vh;
+        flex-direction: column;
+       
+    
+        
+        h2{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 15px;
+        font-weight: bold;
+        }
+        span{
+            font-size: 13px;
+        }
+    }
+    
+}
